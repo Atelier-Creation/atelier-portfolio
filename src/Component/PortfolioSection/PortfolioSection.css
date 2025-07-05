@@ -12718,7 +12718,7 @@ figcaption {
   }
   .pin-spacer{
     height: auto !important;
-    padding: 2rem 1rem !important;
+    padding: 0rem !important;
   }
 
   .button_new-copy {

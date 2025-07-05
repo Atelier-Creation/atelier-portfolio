@@ -23,7 +23,8 @@ function GridOverView() {
     const onWheel = (e) => {
       if (container) {
         e.preventDefault();
-        container.scrollLeft += e.deltaY;
+        const scrollSpeed = 2.5;
+        container.scrollLeft += e.deltaY * scrollSpeed;
       }
     };
 
