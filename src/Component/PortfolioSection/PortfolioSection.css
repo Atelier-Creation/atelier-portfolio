@@ -12643,10 +12643,6 @@ figcaption {
     transform: translateX(-10px);
     font-size: 7vw;
   }
-  .work-holder{
-    margin-top: 50rem;
-    /* transform: scale(1, 1) !important; */
-  }
 }
 
 
