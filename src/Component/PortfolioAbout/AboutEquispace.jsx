@@ -56,10 +56,10 @@ export default function AboutEquispace() {
     <div className="div-block-11" ref={sectionRef}>
       <div className="about-but-head">
         <div className="heading-about-us">
-          <div className="text-block-8">About Equispace</div>
+          <div className="text-block-8">About Atelier Creations</div>
           <div className="ab">
             <div className="text-2-copy">
-              Building a Better Future, One Step at a Time
+              CRAFTING DIGITAL EXCELLENCE, ONE BRAND AT A TIME
               <br />
             </div>
           </div>
@@ -67,11 +67,10 @@ export default function AboutEquispace() {
 
         <div className="holder">
           <p className="about-us-text">
-            At EquiSpace, we don’t just design workspaces we create
-            possibilities, independence, and a sense of belonging. Our inclusive
-            coworking spaces break barriers, spark confidence, and celebrate
-            every ability, empowering individuals to thrive, collaborate, and
-            succeed.
+            At Atelier Creations, we don't just build websites or design visuals — we bring brands to life. Our
+            passion lies in creating impactful digital experiences that blend creativity with strategy. From
+            innovative UI/UX and web development to performance-driven marketing, we empower
+            businesses to grow, connect, and lead in the digital space.
           </p>
         </div>
 
