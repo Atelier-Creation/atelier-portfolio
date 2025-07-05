@@ -3899,7 +3899,7 @@ figcaption {
 }
 
 .s2 {
-  z-index: 2;
+  z-index: 5;
   color: var(--neutral--neutral-lightest);
   mix-blend-mode: difference;
   justify-content: space-between;
@@ -4778,6 +4778,7 @@ figcaption {
 .card-wrapper {
   perspective: 1200px;
    height: 100vh;
+   z-index: 3;
   flex: 0 auto;
   justify-content: center;
   align-items: center;
@@ -5855,6 +5856,7 @@ figcaption {
   flex-flow: column;
   display: flex;
   margin-top: 40 ;
+  z-index: 5;
 }
 
 .card_section {
@@ -6373,7 +6375,7 @@ figcaption {
 }
 
 .review-holder-0 {
-  z-index: -3;
+  z-index: 1;
   grid-column-gap: 24vw;
   grid-row-gap: 24vw;
   opacity: 1;
@@ -6389,7 +6391,7 @@ figcaption {
 }
 
 .review-holder-1 {
-  z-index: auto;
+  z-index: 1;
   grid-column-gap: 16vw;
   grid-row-gap: 16vw;
   flex: 0 auto;
@@ -6463,7 +6465,7 @@ figcaption {
 }
 
 .review-holder-2 {
-  z-index: auto;
+  z-index: 1;
   grid-column-gap: 8vw;
   grid-row-gap: 8vw;
   flex: 0 auto;
@@ -6520,6 +6522,7 @@ figcaption {
 
 .review-holder-5 {
   grid-column-gap: 35vw;
+  z-index: 1;
   grid-row-gap: 35vw;
   opacity: 1 !important;
   flex: 0 auto;

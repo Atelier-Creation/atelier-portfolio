@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
 import './GridOverView.css'
-import image1 from '../../src/assets/portfolioGridImage/gridImage1.jpg'
-import image2 from '../../src/assets/portfolioGridImage/image1.jpg'
-import image3 from '../../src/assets/portfolioGridImage/image2.jpg'
-import image4 from '../../src/assets/portfolioGridImage/image3.jpg'
+import image1 from '../../assets/portfolioGridImage/gridImage1.jpg'
+import image2 from '../../assets/portfolioGridImage/image1.jpg'
+import image3 from '../../assets/portfolioGridImage/image2.jpg'
+import image4 from '../../assets/portfolioGridImage/image3.jpg'
 import { portfolioItems } from "../PortfolioSection/PortfolioSection";
 import { useNavigate } from "react-router";
 import { useParams } from "react-router";
