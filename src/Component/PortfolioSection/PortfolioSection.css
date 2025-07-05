@@ -12649,7 +12649,7 @@ figcaption {
 /* ===== AboutEquispace Mobile Responsive ===== */
 @media screen and (max-width: 768px) {
   .work{
-    background-color: #000;
+    background-color: var(--neutral--alt-black);
   }
   .div-block-11 {
     position: relative !important;
