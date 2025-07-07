@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import Lenis from '@studio-freight/lenis';
@@ -7,8 +7,8 @@ import "./PortfolioSection.css";
 import image1 from "../../assets/portfolioGridImage/New folder/i1.png";
 import image2 from "../../assets/portfolioGridImage/New folder/i2.png";
 import image3 from "../../assets/portfolioGridImage/New folder/i3.png";
-import image4 from "../../assets/portfolioGridImage/New folder/i4.png";
-import image5 from "../../assets/portfolioGridImage/New folder/i5.png";
+import image4 from "../../assets/portfolioGridImage/New folder/2-o-tuna.jpg";
+import image5 from "../../assets/portfolioGridImage/New folder/2-o.gif";
 import image6 from "../../assets/portfolioGridImage/New folder/i6.png";
 import image7 from "../../assets/portfolioGridImage/New folder/i7.png";
 import image8 from "../../assets/portfolioGridImage/New folder/i8.png";
@@ -445,6 +445,7 @@ const PortfolioSection = () => {
   const cardFrontRef = useRef(null);
   const cardBackRef = useRef(null);
   const revealSectionRef = useRef(null);
+  const [hoveredId, setHoveredId] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -673,10 +674,20 @@ const PortfolioSection = () => {
                       style={{ cursor: "pointer" }}
                       className="projects w-inline-block"
                     >
-                      <div className="img-hold">
+                      <div className="img-hold"
+                      onMouseEnter={() => setHoveredId(item.id)}
+                    onMouseLeave={() => setHoveredId(null)}
+                    style={{ cursor: "pointer" }}
+                     >
                         <img
-                          src={item.imageSrc?.[0]}
+                          src={
+                        hoveredId === item.id
+                          ? item.imageSrc?.[1]    // show alt frame
+                          : item.imageSrc?.[0]    // default frame
+                      }
                           alt={item.title}
+                          loading="lazy"
+                          draggable={false}
                           className={`image-${item.title
                             .toLowerCase()
                             .replace(/\s+/g, "-")}`}
