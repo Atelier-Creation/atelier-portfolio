@@ -6382,7 +6382,7 @@ figcaption {
   flex: 0 auto;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 50%;
   padding-left: 8vw;
   padding-right: 8vw;
   display: flex;
@@ -10137,7 +10137,7 @@ figcaption {
   }
 
   .rishav-sha-3, ._49-3 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .text-26 {
@@ -11364,7 +11364,7 @@ figcaption {
 
   .review-holder-0, .review-holder-1, .review-holder-2, .review-holder-5 {
     opacity: 1;
-    display: none;
+    /* display: none; */
   }
 
   .about_image_div {
@@ -12723,5 +12723,57 @@ figcaption {
     gap: 0.5rem;
     padding: 0.75rem 1.25rem;
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 40rem) {
+
+  /* ——— holders ——— */
+  .review-holder-0,
+  .review-holder-1,
+  .review-holder-2,
+  .review-holder-5 {
+    /* stack cards vertically and reduce whitespace */
+    flex-direction: row;
+    grid-column-gap: 3vw;
+    grid-row-gap: 6vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    top: 0;                       /* cancel large negative offsets */
+  }
+
+  /* ——— every review card (all variants share these props) ——— */
+  .review1-copy,
+  .review1-copy1,
+  .review1-copy-copy,
+  .review1-copy1-copy,
+  .review1-copy-copy-copy,
+  .review2-copy,
+  .review2-copy-copy,
+  .review2,
+  .review5-copy {
+    min-width: 55vw;              /* ~280 px on 375 px viewport */
+    max-width: 55vw;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px #47495514;
+    margin-top: 24px;             /* gentler staggering */
+  }
+
+  /* first card in a holder gets no top‑margin */
+  /* .review-holder-0 > :first-child,
+  .review-holder-1 > :first-child,
+  .review-holder-2 > :first-child,
+  .review-holder-5 > :first-child {
+    margin-top: 0;
+  } */
+
+  /* optional: shrink text a tad for long quotes */
+  .review-holder-0 .text-26,
+  .review-holder-1 .text-26,
+  .review-holder-2 .text-26,
+  .review-holder-5 .text-26 {
+    font-size: 8px;          /* 14 px */
+    line-height: 1.5;
   }
 }
