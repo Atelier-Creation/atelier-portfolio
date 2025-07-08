@@ -4,52 +4,48 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import Lenis from '@studio-freight/lenis';
 import { Link, useNavigate } from "react-router-dom";
 import "./PortfolioSection.css";
-import image1 from "../../assets/portfolioGridImage/New folder/i1.png";
-import image2 from "../../assets/portfolioGridImage/New folder/i2.png";
-import image3 from "../../assets/portfolioGridImage/New folder/i3.png";
-import image4 from "../../assets/portfolioGridImage/New folder/tuneasethetics.gif";
-import image5 from "../../assets/portfolioGridImage/New folder/i5.png";
-import image6 from "../../assets/portfolioGridImage/New folder/i6.png";
-import image7 from "../../assets/portfolioGridImage/New folder/designroots3d.gif";
+import image1 from "../../assets/portfolioGridImage/New folder/trigun.gif";
+import image4 from "../../assets/portfolioGridImage/New folder/2-o.gif";
+import image7 from "../../assets/portfolioGridImage/New folder/designroots.gif";
 import image8 from "../../assets/portfolioGridImage/New folder/i8.png";
 import image9 from "../../assets/portfolioGridImage/New folder/i9.png";
-import image10 from "../../assets/portfolioGridImage/New folder/i10.png";
+import image10 from "../../assets/portfolioGridImage/New folder/beingSocial.gif";
 import image11 from "../../assets/portfolioGridImage/New folder/i11.png";
 import image12 from "../../assets/portfolioGridImage/New folder/i12.png";
-import image13 from "../../assets/portfolioGridImage/New folder/i13.png";
+import image13 from "../../assets/portfolioGridImage/New folder/Industro-venture.gif";
 import image14 from "../../assets/portfolioGridImage/New folder/i14.png";
 import image15 from "../../assets/portfolioGridImage/New folder/i15.png";
-import image16 from "../../assets/portfolioGridImage/New folder/i16.png";
+import image16 from "../../assets/portfolioGridImage/New folder/Mayon.gif";
 import image17 from "../../assets/portfolioGridImage/New folder/i17.png";
 import image18 from "../../assets/portfolioGridImage/New folder/i18.png";
-import image19 from "../../assets/portfolioGridImage/New folder/i19.png";
+import image19 from "../../assets/portfolioGridImage/New folder/keva.gif";
 import image20 from "../../assets/portfolioGridImage/New folder/i20.png";
 import image21 from "../../assets/portfolioGridImage/New folder/i21.png";
-import image22 from "../../assets/portfolioGridImage/New folder/i22.png";
+import image22 from "../../assets/portfolioGridImage/New folder/Golden-overseas.gif";
 import image23 from "../../assets/portfolioGridImage/New folder/i23.png";
 import image24 from "../../assets/portfolioGridImage/New folder/i24.png";
-import image25 from "../../assets/portfolioGridImage/New folder/i25.png";
+import image25 from "../../assets/portfolioGridImage/New folder/Sushruta.gif";
 import image26 from "../../assets/portfolioGridImage/New folder/i26.png";
 import image27 from "../../assets/portfolioGridImage/New folder/i27.png";
-import image28 from "../../assets/portfolioGridImage/New folder/i28.png";
+import image28 from "../../assets/portfolioGridImage/New folder/bluestone.gif";
 import image29 from "../../assets/portfolioGridImage/New folder/i29.png";
 import image30 from "../../assets/portfolioGridImage/New folder/i30.png";
-import image31 from "../../assets/portfolioGridImage/New folder/i31.png";
+import image31 from "../../assets/portfolioGridImage/New folder/Nirvana.gif";
 import image32 from "../../assets/portfolioGridImage/New folder/i32.png";
 import image33 from "../../assets/portfolioGridImage/New folder/i33.png";
-import image34 from "../../assets/portfolioGridImage/New folder/i34.png";
+import image34 from "../../assets/portfolioGridImage/New folder/Candere.gif";
 import image35 from "../../assets/portfolioGridImage/New folder/i35.png";
 import image36 from "../../assets/portfolioGridImage/New folder/i36.png";
-import image37 from "../../assets/portfolioGridImage/New folder/i37.png";
+import image37 from "../../assets/portfolioGridImage/New folder/Goat-Robotics.gif";
 import image38 from "../../assets/portfolioGridImage/New folder/i38.png";
 import image39 from "../../assets/portfolioGridImage/New folder/i39.png";
-import image40 from "../../assets/portfolioGridImage/New folder/i40.png";
+import image40 from "../../assets/portfolioGridImage/New folder/NoBuyRent.gif";
 import image41 from "../../assets/portfolioGridImage/New folder/i41.png";
 import image42 from "../../assets/portfolioGridImage/New folder/i42.png";
-import image43 from "../../assets/portfolioGridImage/New folder/i43.png";
+import image43 from "../../assets/portfolioGridImage/New folder/Gehna.gif";
 import image44 from "../../assets/portfolioGridImage/New folder/i44.png";
 import image45 from "../../assets/portfolioGridImage/New folder/i45.png";
-import image46 from "../../assets/portfolioGridImage/New folder/i46.png";
+import image46 from "../../assets/portfolioGridImage/New folder/Mohan-jewellery.gif";
 import image47 from "../../assets/portfolioGridImage/New folder/i47.png";
 import image48 from "../../assets/portfolioGridImage/New folder/i48.png";
 
@@ -103,7 +99,7 @@ export const portfolioItems = [
     id: 1,
     title: "Trigun Studio",
     category: "Architecture",
-    imageSrc: [image1, image2, image3],
+    imageSrc: [image1],
     link: "https://www.trigunstudio.com/",
     about:
       "At Trigun Studio, we redefine design to create a better future with every project. Our passionate team blends creativity, innovation, and functionality, delivering exceptional architecture and interiors that exceed client expectations and transform every space into a true masterpiece.",
@@ -116,7 +112,7 @@ export const portfolioItems = [
     id: 2,
     title: "Tuneaethetics",
     category: "Skin Rejuvenation",
-    imageSrc: [image4, image5, image6],
+    imageSrc: [image4],
     link: "https://tuneaesthetics.com/",
     about:
       "Our clinical experts at Tune are dedicated professionals committed to delivering exceptional care. With extensive experience in dermatology and skin and hair care, our team provides personalized treatment plans tailored to your needs. From diagnosing skin conditions to offering innovative solutions, they guide you towards optimal health and beauty. With compassion and expertise, our experts ensure you receive the highest standard of care. Trust in our team to help you achieve your skin and hair care goals. Experience the difference with Tune’s renowned clinical experts leading the way.",
