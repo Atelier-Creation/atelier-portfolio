@@ -2,15 +2,15 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import Lenis from '@studio-freight/lenis';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./PortfolioSection.css";
 import image1 from "../../assets/portfolioGridImage/New folder/i1.png";
 import image2 from "../../assets/portfolioGridImage/New folder/i2.png";
 import image3 from "../../assets/portfolioGridImage/New folder/i3.png";
-import image4 from "../../assets/portfolioGridImage/New folder/2-o-tuna.jpg";
-import image5 from "../../assets/portfolioGridImage/New folder/2-o.gif";
+import image4 from "../../assets/portfolioGridImage/New folder/tuneasethetics.gif";
+import image5 from "../../assets/portfolioGridImage/New folder/i5.png";
 import image6 from "../../assets/portfolioGridImage/New folder/i6.png";
-import image7 from "../../assets/portfolioGridImage/New folder/i7.png";
+import image7 from "../../assets/portfolioGridImage/New folder/designroots3d.gif";
 import image8 from "../../assets/portfolioGridImage/New folder/i8.png";
 import image9 from "../../assets/portfolioGridImage/New folder/i9.png";
 import image10 from "../../assets/portfolioGridImage/New folder/i10.png";
@@ -666,17 +666,13 @@ const PortfolioSection = () => {
                 {portfolioItems
                   .slice(rowIndex * 2, rowIndex * 2 + 2)
                   .map((item) => (
+                    <Link to={item.link} style={{textDecorationLine:"none"}}>
                     <div
                       key={item.id}
-                      onClick={() =>
-                        navigate(`/${item.title}`, { state: { data: item } })
-                      }
                       style={{ cursor: "pointer" }}
                       className="projects w-inline-block"
                     >
                       <div className="img-hold"
-                      onMouseEnter={() => setHoveredId(item.id)}
-                    onMouseLeave={() => setHoveredId(null)}
                     style={{ cursor: "pointer" }}
                      >
                         <img
@@ -707,6 +703,7 @@ const PortfolioSection = () => {
                         </div>
                       </div>
                     </div>
+                    </Link>
                   ))}
               </div>
             )
