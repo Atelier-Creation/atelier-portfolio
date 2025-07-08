@@ -18,7 +18,7 @@ import image15 from "../../assets/portfolioGridImage/New folder/i15.png";
 import image16 from "../../assets/portfolioGridImage/New folder/Mayon.gif";
 import image17 from "../../assets/portfolioGridImage/New folder/i17.png";
 import image18 from "../../assets/portfolioGridImage/New folder/i18.png";
-import image19 from "../../assets/portfolioGridImage/New folder/keva.gif";
+import image19 from "../../assets/portfolioGridImage/New folder/Keva.gif";
 import image20 from "../../assets/portfolioGridImage/New folder/i20.png";
 import image21 from "../../assets/portfolioGridImage/New folder/i21.png";
 import image22 from "../../assets/portfolioGridImage/New folder/Golden-overseas.gif";
