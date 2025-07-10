@@ -6,11 +6,11 @@ import image4 from '../../assets/portfolioGridImage/design3.jpg'
 import image5 from '../../assets/portfolioGridImage/design4.jpg'
 
 const data = [
-  { id: 1, image: image2, header: "Interior Work", para: "We specialize in interior work that blends functionality with inclusivity, ensuring every space is accessible and adaptive" },
-  { id: 2, image: image3, header: "Braille Signs", para: "Our Braille signage is designed to make spaces more accessible, ensuring visually impaired individuals can navigate with ease and confidence." },
-  { id: 3, image: image5, header: "PWD Toilet Works", para: "We design PWD-friendly toilets that prioritize accessibility, safety, and comfort, ensuring ease of use for individuals with disabilities" },
-  { id: 4, image: image4, header: "Tactile Pathway", para: "Our tactile pathways are designed to make navigation easier and safer, ensuring that visually impaired individuals can move with confidence and independence." },
-  { id: 5, image: image1, header: "Renovation Work", para: "Our renovation work incorporates Braille signage, accessible restrooms, and adaptive workspaces, ensuring a seamless and inclusive experience for differently-abled individuals." },
+  { id: 1, image: image2, header: "Branding & Identity", para: "We build brands that speak. From logo creation to full-fledged brand guidelines, we craft cohesive visual identities that elevate your presence across print, digital, and physical platforms." },
+  { id: 2, image: image3, header: "UI/UX Design", para: "User-first design is at the heart of everything we do. Our UI/UX services focus on creating intuitive, responsive, and visually engaging interfaces for websites, web apps, and mobile platforms." },
+  { id: 3, image: image5, header: "Web & App Development", para: "We develop robust, scalable, and SEO-friendly websites and applications that combine great functionality with high performance. Whether you need a business website, portfolio, or e-commerce store, we’ve got you covered." },
+  { id: 4, image: image4, header: "Digital Marketing & Meta Ads", para: "Boost your reach with our performance-driven marketing services. From social media strategy and creative content to running Meta Ads (Facebook/Instagram) and Google Ads, we help you get noticed—and get results." },
+  { id: 5, image: image1, header: "E-commerce Solutions", para: "End-to-end setup for online stores—from product listing, payment gateways, and shipping integrations to high-converting design layouts and cart optimization. Perfect for D2C brands & startups." },
 ]
 
 function OurDesign() {
@@ -23,11 +23,11 @@ function OurDesign() {
   return (
     <div className='our-design-container'>
       <div className='our-design-container-head-text'>
-        <h1>How We Make Work Better for Everyone</h1>
+        <h1>Our Services</h1>
         <p>
-          We design workspaces that break barriers and foster true inclusivity. From{' '}
-          <strong style={{ fontWeight: '600' }}>universal design solutions</strong> to{' '}
-          <strong style={{ fontWeight: '600' }}>assistive technology integration</strong>, we ensure every space works for everyone.
+          Atelier Creations is a multidisciplinary design and development agency offering a strategic mix{' '}
+          <strong style={{ fontWeight: '600' }}>of digital, creative, and inclusive space solutions.</strong> From branding and websites to{' '}
+          <strong style={{ fontWeight: '600' }}> physical accessibility features</strong>, we deliver purposeful results for modern businesses.
         </p>
       </div>
 
