@@ -1,7 +1,15 @@
 {
   "rewrites": [
     {
-      "source": "/portfolio(/.*)?",
+      "source": "/portfolio",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/portfolio/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/portfolio/:path((?!assets|.*\\..*).*)",
       "destination": "/index.html"
     }
   ]
