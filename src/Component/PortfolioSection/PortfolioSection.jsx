@@ -662,7 +662,13 @@ const PortfolioSection = () => {
                 {portfolioItems
                   .slice(rowIndex * 2, rowIndex * 2 + 2)
                   .map((item) => (
-                    <Link to={item.link} style={{textDecorationLine:"none"}}>
+<a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ textDecoration: "none" }}
+>
+
                     <div
                       key={item.id}
                       style={{ cursor: "pointer" }}
@@ -699,7 +705,7 @@ const PortfolioSection = () => {
                         </div>
                       </div>
                     </div>
-                    </Link>
+                    </a>
                   ))}
               </div>
             )

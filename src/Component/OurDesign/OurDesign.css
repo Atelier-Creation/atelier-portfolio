@@ -210,11 +210,10 @@
   }
 
   .black-box h1 {
-    font-size: 9vw !important;
-    width: 250px;
-    text-align: center;
-    top: 25%;
-    left: 17%;
+    font-size: 8vw !important;
+    width: 180px;
+    top: 23%;
+    left: 20px;
   }
 
   .black-box img {
@@ -270,12 +269,11 @@
   }
 
   .black-box h1 {
-    font-size: 7vw !important;
+    font-size: 8vw !important;
     padding-left: 1rem;
-        width: 200px;
-        text-align: center;
-        top: 35%;
-        left: 12%;
+        width: 180px;
+        top: 23%;
+        left: 10px;
   }
 
   .black-box img {
