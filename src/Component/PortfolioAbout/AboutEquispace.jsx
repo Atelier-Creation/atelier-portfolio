@@ -84,7 +84,7 @@ export default function AboutEquispace() {
 
       <div className="logo-hold" ref={logoRef}>
         <img
-          src="./logo1.svg"
+          src="./logo12.svg"
           alt=""
           className="image-12"
         />

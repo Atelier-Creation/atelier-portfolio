@@ -4,6 +4,7 @@ import image2 from '../../assets/portfolioGridImage/design1.jpg'
 import image3 from '../../assets/portfolioGridImage/design2.jpeg'
 import image4 from '../../assets/portfolioGridImage/design3.jpg'
 import image5 from '../../assets/portfolioGridImage/design4.jpg'
+import favicon from "/logo1.svg";
 
 const data = [
   { id: 1, image: image2, header: "Branding & Identity", para: "We build brands that speak. From logo creation to full-fledged brand guidelines, we craft cohesive visual identities that elevate your presence across print, digital, and physical platforms." },
@@ -53,7 +54,7 @@ function OurDesign() {
             {row.length === 1 && (
                         <div className='black-box'>
           <h1>AND MANY MORE ...</h1>
-          <img src='/logo1.svg' alt="logo" style={{filter:'contrast(0.5)'}} />
+          <img src={favicon} alt="logo" style={{filter:'contrast(0.5)'}} />
         </div>
               
             )}

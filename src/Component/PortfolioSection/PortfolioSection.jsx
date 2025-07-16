@@ -341,16 +341,16 @@ export const portfolioItems = [
 const testimonials = [
   {
     name: "Shivani A.",
-    title: "Product lead",
+    title: "Taigon Studio",
     rating: "4.2",
     quote:
-      "Equispace transformed our outdated office into a space that's truly inclusive",
+      "Atelier transformed our outdated office into a space that's truly inclusive",
     ellipseClass: "ellipse-5",
     wrapperClass: "review1-copy-copy-copy",
   },
   {
     name: "Poonam Bansal",
-    title: "NGO Director",
+    title: "Tuneaethetics",
     rating: "5",
     quote: "Their accessible designs changed how our students move and learn",
     ellipseClass: "ellipse-8",
@@ -358,7 +358,7 @@ const testimonials = [
   },
   {
     name: "Arushi Sharma",
-    title: "Head of Design",
+    title: "Designroots3d",
     rating: "4.5",
     quote: "Highly recommend anyone seeking interior design project",
     ellipseClass: "ellipse-4",
@@ -367,11 +367,11 @@ const testimonials = [
     opacity: 0,
   },
   {
-    name: "Kshitij K.",
-    title: "Advocate",
+    name: "Karthik K.",
+    title: "Beingsocial",
     rating: "4.7",
     quote:
-      "Equispace delivered accessibility without compromising on aesthetics",
+      "Atelier delivered accessibility without compromising on aesthetics",
     ellipseClass: "ellipse-1",
     wrapperClass: "review1-copy",
     dataWid: "c5accebb-19af-013e-0384-e4b4272636f5",
@@ -379,7 +379,7 @@ const testimonials = [
   },
   {
     name: "Anjali S.",
-    title: "Head of Marketing",
+    title: "Candere",
     rating: "4.9",
     quote:
       "For the first time, I felt completely independent moving through a public space",
@@ -390,16 +390,16 @@ const testimonials = [
   },
   {
     name: "Tanuj Ahuja",
-    title: "Tech Lead",
+    title: "Industro Venture",
     rating: "4.9",
     quote:
-      "Equispace consistently delivers designs that meet and exceed national accessibility standards.",
+      "Atelier consistently delivers designs that meet and exceed national accessibility standards.",
     ellipseClass: "ellipse-7",
     wrapperClass: "review1-copy1",
   },
   {
     name: "Purav Jha",
-    title: "Software developer",
+    title: "Keva Clinic",
     rating: "4.6",
     quote:
       "Their attention to detail and knowledge of RPWD compliance gave us complete confidence in the process.",
@@ -408,16 +408,16 @@ const testimonials = [
   },
   {
     name: "Tanuj Ahuja",
-    title: "Tech Lead",
+    title: "Bluestone",
     rating: "4.9",
     quote:
-      "Equispace consistently delivers designs that meet and exceed national accessibility standards.",
+      "Atelier consistently delivers designs that meet and exceed national accessibility standards.",
     ellipseClass: "ellipse-7",
     wrapperClass: "review1-copy1",
   },
   {
     name: "Purav Jha",
-    title: "Software developer",
+    title: "Nirvana",
     rating: "4.6",
     quote:
       "Their attention to detail and knowledge of RPWD compliance gave us complete confidence in the process.",
@@ -426,9 +426,9 @@ const testimonials = [
   },
   {
     name: "Rishav Sha",
-    title: "Head of Design",
+    title: "Gehna",
     rating: "4.9",
-    quote: "Equispace transformed our building into a truly inclusive space.",
+    quote: "Atelier transformed our building into a truly inclusive space.",
     ellipseClass: "ellipse-2",
     wrapperClass: "review1-copy1-copy",
     dataWid: "31f3f657-2324-4456-a139-09da54977a29",
