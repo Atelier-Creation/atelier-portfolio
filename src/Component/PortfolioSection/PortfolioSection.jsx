@@ -638,15 +638,15 @@ const PortfolioSection = () => {
             <section className="space2"></section>
             <div className="work_text">
               <div className="w">
-                <p className="paragraph_4">Step inside our spaces where</p>
+                <p className="paragraph_4">We are proud to showcase a selection of our client</p>
               </div>
               <div className="w">
                 <p className="paragraph_4">
-                  accessibility meets innovation—because
+           projects, highlighting the innovative solutions and
                 </p>
               </div>
               <div className="w">
-                <p className="paragraph_4">great design belongs to everyone</p>
+                <p className="paragraph_4">creative collaborations that have driven their success.</p>
               </div>
             </div>
           </div>

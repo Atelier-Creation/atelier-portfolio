@@ -4838,7 +4838,7 @@ figcaption {
   margin-left: 0;
   font-family: Gilroy, Arial, sans-serif;
   font-size: 2.3vw;
-  font-weight: 500;
+  font-weight:bold;
   position: relative;
   inset: 0% auto auto 0%;
   overflow: hidden;
@@ -5896,6 +5896,7 @@ figcaption {
   text-decoration: none;
   display: flex;
   position: static;
+  font-size: 45px;
 }
 
 .cheque {
