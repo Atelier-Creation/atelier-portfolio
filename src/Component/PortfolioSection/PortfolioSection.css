@@ -3922,6 +3922,7 @@ figcaption {
   display: flex;
   position: static;
   overflow: hidden;
+  padding-bottom: 20vh;
 }
 
 .hero_section {
@@ -12524,6 +12525,7 @@ figcaption {
   transform: translateX(-30px);
   opacity: 0;
   transition: transform 0.4s ease, opacity 0.4s ease;
+  margin:0;
 }
 
 .heading-2 {
@@ -12632,7 +12634,7 @@ figcaption {
 
   .portfolio {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 13rem;
   }
   .img-2{
     transform: none;

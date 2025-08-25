@@ -48,6 +48,8 @@ import image45 from "../../assets/portfolioGridImage/New folder/i45.png";
 import image46 from "../../assets/portfolioGridImage/New folder/Mohan-jewellery.gif";
 import image47 from "../../assets/portfolioGridImage/New folder/i47.png";
 import image48 from "../../assets/portfolioGridImage/New folder/i48.png";
+import image49 from '../../assets/portfolioGridImage/New folder/knobsshop.gif'
+import image50 from '../../assets/portfolioGridImage/New folder/psgr.gif'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -336,6 +338,32 @@ export const portfolioItems = [
     service: ["Rings", "Earings", "Bangles"],
     loc: "New 90 Old 83 Appar Swamy Koil Street P S Sivaswamy RoadMylapore Chennai 600004",
   },
+  {
+    id: 17,
+    title: "Knobsshop",
+    category: "Hardware",
+    imageSrc: [image49],
+    link: "https://knobsshop.store/",
+    about:
+      "For over 25 years, KnobsShop has been a trusted name in premium hardware and home utility solutions. What began as a small family-run store has grown into a leading destination for quality knobs, handles, and décor fittings that blend function with style.",
+    about2:
+      "We believe in delivering products that last, service that cares, and designs that elevate everyday living. With decades of craftsmanship, satisfied customers, and innovation behind us — we continue to bring timeless detailing to modern Indian homes.",
+    service: ["Knobs", "Handles", "Decor fittings"],
+    loc: "746 747, Mettupalayam Rd, Sukrawar Pettai, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+  },
+  {
+    id: 18,
+    title: "PSGR Krishnammal Collage",
+    category: "Education",
+    imageSrc: [image50],
+    link: "https://www.psgrkcw.ac.in/",
+    about:
+      "KCW (PSGR Krishnammal College for Women), inaugurated in June 1963 under the aegis of the GRG Trust of Coimbatore has grown over the last six decades into a temple of learning and academic excellence. Founded on a motto of ‘empowering through education’, the ‘women-only’ KCW symbolizes knowledge, love, and service.",
+    about2:
+      "KCW is an autonomous college of higher education for women. It is affiliated to the Bharathiar University, Coimbatore, ranked #7 among colleges in India in NIRF, accredited with the highest A++ grade by NAAC, and a UGC-certified ‘College of Excellence’. Serving 8,500+ students with 400+ faculty, KCW is recognised for its impact on society through its academic programmes, holistic approach, community outreach, and an enduring vision for the future.",
+    service: ["Knobs", "Handles", "Decor fittings"],
+    loc: "Peelamedu,Coimbatore - 641004 ,Tamil Nadu, India",
+  },
 ];
 
 const testimonials = [
@@ -468,7 +496,7 @@ const PortfolioSection = () => {
       scrollTrigger: {
         trigger: ".card-wrapper",
         start: "top 30%",
-        end: "bottom+=550%",
+        end: "bottom+=650%",
         scrub: 1,
         pin: true,
         anticipatePin: 0,
