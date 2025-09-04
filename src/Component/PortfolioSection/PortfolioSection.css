@@ -5034,6 +5034,7 @@ figcaption {
   flex-flow: column;
   text-decoration: none;
   display: flex;
+  margin: 0 0rem 0 4rem;
 }
 
 .heading-2 {
