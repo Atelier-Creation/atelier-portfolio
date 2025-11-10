@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import aboutImg from "../../assets/portfolioGridImage/about.png";
+import aboutImg from "../../assets/portfolioGridImage/about1.png";
 import "../PortfolioSection/PortfolioSection.css";
 
 gsap.registerPlugin(ScrollTrigger);
