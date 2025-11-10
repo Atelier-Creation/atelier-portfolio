@@ -173,7 +173,7 @@
     align-items: center;
     text-align: center;
     gap: 30px;
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
   .our-design-container-head-text h1,
@@ -210,7 +210,7 @@
   }
 
   .black-box h1 {
-    font-size: 8vw !important;
+    font-size: 8vw;
     width: 180px;
     top: 23%;
     left: 20px;
@@ -234,10 +234,19 @@
   }
 
 }
+@media (max-width: 768px) {
+    .black-box img {
+      right: 0.5rem;
+    }
+}
 
 @media (max-width: 600px) {
+  
   .our-design-container-head-text h1 {
-    font-size: 48px;
+    font-size: 10vh;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100%;
   }
   .our-design-container-image.big {
     width: 100%;
@@ -269,7 +278,7 @@
   }
 
   .black-box h1 {
-    font-size: 8vw !important;
+    font-size: 8vw;
     padding-left: 1rem;
         width: 180px;
         top: 23%;
