@@ -9,24 +9,240 @@ html {
 }
 
 .portfolio-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* left | right */
   grid-column-gap: 4rem;
   grid-row-gap: 4rem;
-  grid-template-rows: auto;
   justify-items: stretch;
   margin-left: 6rem;
   margin-right: 6rem;
   overflow: visible;
 }
 
-.img-hold {
-  aspect-ratio: 3 / 2;
-  border-radius: 1.2vw;
-  flex: 0 auto;
-  height: auto;
-  display: block;
-  overflow: hidden;
-  width: 550px;
+
+.col-left {
 }
+
+.col-right {
+}
+
+/* container / device */
+.img-hold {
+  width: 550px;
+  max-width: 100%;
+  aspect-ratio: 3 / 2;
+  position: relative;
+  border-radius: 1.2vw;
+  overflow: visible;
+  display: block;
+}
+
+/* device mockup (laptop + mobile png) */
+.img-hold .device-mockup {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+/* 📱 Mobile screen area overlay */
+.img-hold .mobile-bg {
+  --screen-w: 83px;
+  --screen-h: 170px;
+  position: absolute;
+  right: 42px;
+  top: 120px;
+  width: var(--screen-w);
+  height: var(--screen-h);
+  overflow: hidden;
+  z-index: 15;
+  border-radius: 1vw;
+  background: #000;
+}
+
+
+/* screen area on laptop */
+.img-hold .lap-bg {
+  --screen-w: 320px;
+  --screen-h: 200px;
+  position: absolute;
+  left: 65px;
+  top: 68px;
+  width: var(--screen-w);
+  height: var(--screen-h);
+  overflow: hidden;
+  z-index: 10;
+  border-radius: 0.8vw;
+  will-change: transform;
+  background: transparent;
+}
+
+.img-hold .mobile-bg .scroll-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: scrollBg 20s linear infinite;
+}
+
+/* wrapper that contains 2 copies for infinite scroll */
+.img-hold .lap-bg .scroll-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: scrollBg 20s linear infinite;
+}
+
+/* each image fills full width and natural height */
+.img-hold .lap-bg .scroll-wrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+.img-hold .mobile-bg .scroll-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: scrollBg 20s linear infinite;
+}
+
+.img-hold .mobile-bg .scroll-wrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+/* 📱 Mobile scroll images (same behavior as laptop scroll) */
+.img-hold .mobile-bg .scroll-wrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+
+/* ✅ Continuous scroll of full image */
+@keyframes scrollBg {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* pause scroll on hover */
+.img-hold .lap-bg:hover .scroll-wrap {
+  animation-play-state: paused;
+}
+
+@media (max-width: 800px) {
+  .img-hold {
+    width: 320px;
+  }
+
+  .img-hold .lap-bg {
+    left: 40px;
+    top: 40px;
+    --screen-w: 197px;
+    --screen-h: 122px;
+  }
+
+  .img-hold .mobile-bg {
+    left: 260px;
+    top: 74px;
+    --screen-w: 50px;
+    --screen-h: 102px;
+  }
+
+  .img-hold .lap-bg .scroll-wrap {
+    animation-duration: 18s;
+  }
+}
+
+/* responsive adjustments for mobile view */
+@media (max-width: 720px) {
+  .img-hold {
+    width: 320px;
+  }
+
+  .img-hold .lap-bg {
+    left: 41px;
+    top: 43px;
+    --screen-w: 207px;
+    --screen-h: 129px;
+  }
+
+  .img-hold .mobile-bg {
+    left: 273px;
+    top: 77px;
+    --screen-w: 53px;
+    --screen-h: 108px;
+  }
+
+  .img-hold .lap-bg .scroll-wrap {
+    animation-duration: 18s;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .img-hold {
+    width: 320px;
+  }
+
+  .img-hold .lap-bg {
+    left: 37px;
+    top: 38px;
+    --screen-w: 185px;
+    --screen-h: 115px;
+  }
+
+  .img-hold .mobile-bg {
+    left: 245px;
+    top: 68px;
+    --screen-w: 46px;
+    --screen-h: 98px;
+  }
+
+  .img-hold .lap-bg .scroll-wrap {
+    animation-duration: 18s;
+  }
+}
+
+@media (max-width: 350px) {
+  .img-hold {
+    width: 320px;
+  }
+
+  .img-hold .lap-bg {
+    left: 33px;
+    top: 35px;
+    --screen-w: 158px;
+    --screen-h: 97px;
+  }
+
+  .img-hold .mobile-bg {
+    left: 212px;
+    top: 60px;
+    --screen-w: 40px;
+    --screen-h: 82px;
+  }
+
+  .img-hold .lap-bg .scroll-wrap {
+    animation-duration: 18s;
+  }
+}
+
+
 
 .work {
   grid-column-gap: 6rem;

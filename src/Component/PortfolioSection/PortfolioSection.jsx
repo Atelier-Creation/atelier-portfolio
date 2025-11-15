@@ -50,6 +50,34 @@ import image47 from "../../assets/portfolioGridImage/New folder/i47.png";
 import image48 from "../../assets/portfolioGridImage/New folder/i48.png";
 import image49 from '../../assets/portfolioGridImage/New folder/knobsshop.gif'
 import image50 from '../../assets/portfolioGridImage/New folder/psgr.gif'
+import mobilelap from '../../assets/images/phone.png'
+import bluelapbg from '../../assets/images/Scroll Animation/BlueStone/Desktop.png'
+import bluemobilebg from '../../assets/images/Scroll Animation/BlueStone/Mobile.png'
+import beingsociallapbg from '../../assets/images/Scroll Animation/Being Social/Desktop.png'
+import beingsocialmobilebg from '../../assets/images/Scroll Animation/Being Social/Mobile.png'
+import canderelapbg from '../../assets/images/Scroll Animation/Candere/Desktop.png'
+import canderemobilebg from '../../assets/images/Scroll Animation/Candere/Mobile.png'
+import gehnalapbg from '../../assets/images/Scroll Animation/Gehna/Desktop.png'
+import gehnamobilebg from '../../assets/images/Scroll Animation/Gehna/Mobile.png' 
+import goatroboticslapbg from '../../assets/images/Scroll Animation/Goat-Robotics/Desktop.png'
+import goatroboticsmobilebg from '../../assets/images/Scroll Animation/Goat-Robotics/Mobile.png'
+import goldengatewaylapbg from '../../assets/images/Scroll Animation/Golden Overseas/Desktop.png'
+import goldengatewaymobilebg from '../../assets/images/Scroll Animation/Golden Overseas/Mobile.png'
+import industroventurelapbg from '../../assets/images/Scroll Animation/Industro Venture/Desktop.png'
+import industroventuremobilebg from '../../assets/images/Scroll Animation/Industro Venture/Mobile.png'
+import kevacliniclapbg from '../../assets/images/Scroll Animation/Keva/Desktop.png'
+import kevaclinicmobilebg from '../../assets/images/Scroll Animation/Keva/Mobile.png'
+import mayonfoundationslapbg from '../../assets/images/Scroll Animation/Mayon Foundations/Desktop.png'
+import mayonfoundationsmobilebg from '../../assets/images/Scroll Animation/Mayon Foundations/Mobile.png'
+import mohanjewellerylapbg from '../../assets/images/Scroll Animation/Mohan Jewellery/Desktop.png'  
+import mohanjewellerymobilebg from '../../assets/images/Scroll Animation/Mohan Jewellery/Mobile.png'
+import nirvanalapbg from '../../assets/images/Scroll Animation/Nirvana/Desktop.png'
+import nirvanamobilebg from '../../assets/images/Scroll Animation/Nirvana/Mobile.png'
+import nobuyrentlapbg from '../../assets/images/Scroll Animation/NoBuyRent/Desktop.png'
+import nobuyrentmobilebg from '../../assets/images/Scroll Animation/NoBuyRent/Mobile.png'
+import sushrutalapbg from '../../assets/images/Scroll Animation/Sushruta/Desktop.png'
+import sushrutamobilebg from '../../assets/images/Scroll Animation/Sushruta/Mobile.png'
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -364,7 +392,7 @@ export const portfolioItems = [
     service: ["Rings", "Earings", "Bangles"],
     loc: "New 90 Old 83 Appar Swamy Koil Street P S Sivaswamy RoadMylapore Chennai 600004",
   },
-  
+
 ];
 
 const testimonials = [
@@ -671,7 +699,7 @@ const PortfolioSection = () => {
               </div>
               <div className="w">
                 <p className="paragraph_4">
-           projects, highlighting the innovative solutions and
+                  projects, highlighting the innovative solutions and
                 </p>
               </div>
               <div className="w">
@@ -682,6 +710,598 @@ const PortfolioSection = () => {
         </section>
 
         <section className="work">
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://www.bluestone.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={bluelapbg} alt="screen content" />
+                        <img src={bluelapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={bluemobilebg} alt="screen content" />
+                        <img src={bluemobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Jewellery</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Bluestone</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div className="col-right">
+              <a
+              href="https://www.beingsocialmedia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={beingsociallapbg} alt="screen content" />
+                        <img src={beingsociallapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={beingsocialmobilebg} alt="screen content" />
+                        <img src={beingsocialmobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Search Engine Optimization</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Beingsocial</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://www.gehnaindia.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={gehnalapbg} alt="screen content" />
+                        <img src={gehnalapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={gehnamobilebg} alt="screen content" />
+                        <img src={gehnamobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Jewellery</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Gehna</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div className="col-right">
+              <a
+              href="https://www.candere.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={canderelapbg} alt="screen content" />
+                        <img src={canderelapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={canderemobilebg} alt="screen content" />
+                        <img src={canderemobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Jewellery</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Candere</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://www.goat-robotics.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={goatroboticslapbg} alt="screen content" />
+                        <img src={goatroboticslapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={goatroboticsmobilebg} alt="screen content" />
+                        <img src={goatroboticsmobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Intra logistics GT</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Goat-Robotics</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div className="col-right">
+              <a
+              href="https://www.industroventure.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={industroventurelapbg} alt="screen content" />
+                        <img src={industroventurelapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={industroventuremobilebg} alt="screen content" />
+                        <img src={industroventuremobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Career Development & Placement Training</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Industro Venture</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+
+
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://www.kevaclinic.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={kevacliniclapbg} alt="screen content" />
+                        <img src={kevacliniclapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={kevaclinicmobilebg} alt="screen content" />
+                        <img src={kevaclinicmobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Skin Care Treatments</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Keva Clinic</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div className="col-right">
+              <a
+              href="https://www.goldengatewayedu.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={goldengatewaylapbg} alt="screen content" />
+                        <img src={goldengatewaylapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={goldengatewaymobilebg} alt="screen content" />
+                        <img src={goldengatewaymobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Overseas Education</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Golden Gateway</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://www.mayonfoundations.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={mayonfoundationslapbg} alt="screen content" />
+                        <img src={mayonfoundationslapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={mayonfoundationsmobilebg} alt="screen content" />
+                        <img src={mayonfoundationsmobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Available To Impartial</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Mayon Foundations</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div className="col-right">
+              <a
+              href="https://mohanjewellery.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={mohanjewellerylapbg} alt="screen content" />
+                        <img src={mohanjewellerylapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={mohanjewellerymobilebg} alt="screen content" />
+                        <img src={mohanjewellerymobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Jewellery</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Mohan Jewellery</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://nirvanagemsandjewels.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={nirvanalapbg} alt="screen content" />
+                        <img src={nirvanalapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={nirvanamobilebg} alt="screen content" />
+                        <img src={nirvanamobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Jewellery</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Nirvana</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div className="col-right">
+              <a
+              href="https://nobuyrent.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={nobuyrentlapbg} alt="screen content" />
+                        <img src={nobuyrentlapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={nobuyrentmobilebg} alt="screen content" />
+                        <img src={nobuyrentmobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Projector Screen Sound system</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Nobuyrent</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+
+
+          <div className="portfolio-row">
+            <div className="col-left">
+              <a
+              href="https://www.sushruta.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="projects w-inline-block">
+                <div className="projects w-inline-block">
+                  <div className="img-hold">
+                    <img src={mobilelap} alt="device mockup" className="device-mockup" />
+
+                    <div className="lap-bg">
+                      <div className="scroll-wrap">
+                        <img src={sushrutalapbg} alt="screen content" />
+                        <img src={sushrutalapbg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+                    <div className="mobile-bg">
+                      <div className="scroll-wrap">
+                        <img src={sushrutamobilebg} alt="screen content" />
+                        <img src={sushrutamobilebg} alt="screen content duplicate" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="div-block-5">
+                    <div className="text-block-4">Filler Injection</div>
+                    <div className="div-block-32">
+                      <div className="div-block-33">
+                        <img
+                          className="img-2"
+                          alt="arrow"
+                          src="./arrow.png"
+                        />
+                        <h1 className="heading-2">Sushruta</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            
+          </div>
+        </section>
+
+
+        {/* <section className="work">
           {Array.from({ length: Math.ceil(portfolioItems.length / 2) }).map(
             (_, rowIndex) => (
               <div
@@ -691,55 +1311,55 @@ const PortfolioSection = () => {
                 {portfolioItems
                   .slice(rowIndex * 2, rowIndex * 2 + 2)
                   .map((item) => (
-<a
-  href={item.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{ textDecoration: "none" }}
->
-
-                    <div
-                      key={item.id}
-                      style={{ cursor: "pointer" }}
-                      className="projects w-inline-block"
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none" }}
                     >
-                      <div className="img-hold"
-                    style={{ cursor: "pointer" }}
-                     >
-                        <img
-                          src={
-                        hoveredId === item.id
-                          ? item.imageSrc?.[1]    // show alt frame
-                          : item.imageSrc?.[0]    // default frame
-                      }
-                          alt={item.title}
-                          loading="lazy"
-                          draggable={false}
-                          className={`image-${item.title
-                            .toLowerCase()
-                            .replace(/\s+/g, "-")}`}
-                        />
-                      </div>
-                      <div className="div-block-5">
-                        <div className="text-block-4">{item.category}</div>
-                        <div className="div-block-32">
-                          <div className="div-block-33">
-                            <img
-                              className="img-2"
-                              alt="arrow"
-                              src="./arrow.png"
-                            />
-                            <h1 className="heading-2">{item.title}</h1>
+
+                      <div
+                        key={item.id}
+                        style={{ cursor: "pointer" }}
+                        className="projects w-inline-block"
+                      >
+                        <div className="img-hold"
+                          style={{ cursor: "pointer" }}
+                        >
+                          <img
+                            src={
+                              hoveredId === item.id
+                                ? item.imageSrc?.[1]    // show alt frame
+                                : item.imageSrc?.[0]    // default frame
+                            }
+                            alt={item.title}
+                            loading="lazy"
+                            draggable={false}
+                            className={`image-${item.title
+                              .toLowerCase()
+                              .replace(/\s+/g, "-")}`}
+                          />
+                        </div>
+                        <div className="div-block-5">
+                          <div className="text-block-4">{item.category}</div>
+                          <div className="div-block-32">
+                            <div className="div-block-33">
+                              <img
+                                className="img-2"
+                                alt="arrow"
+                                src="./arrow.png"
+                              />
+                              <h1 className="heading-2">{item.title}</h1>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
                     </a>
                   ))}
               </div>
             )
           )}
-        </section>
+        </section> */}
       </div>
     </section>
   );
